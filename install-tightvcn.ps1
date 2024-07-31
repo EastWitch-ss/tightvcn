@@ -14,3 +14,4 @@ New-NetFirewallRule -DisplayName "Allow TightVNC Server" -Direction Inbound -Pro
 # Clean up temporary files
 if (Test-Path $installerPath) { Remove-Item $installerPath -Force }
 if (Test-Path $regFilePath) { Remove-Item $regFilePath -Force }
+
